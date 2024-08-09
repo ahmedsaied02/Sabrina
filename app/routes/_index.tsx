@@ -22,7 +22,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex">
+    <div className="flex flex-col gap-4">
       <img src={page1} alt="" />
       <img src={page2} alt="" />
       <img src={page3} alt="" />
