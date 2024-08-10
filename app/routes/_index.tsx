@@ -1,18 +1,18 @@
 import type { MetaFunction } from "@remix-run/node";
-import page1 from "~/assets/Menu_page-0001.jpg"
-import page2 from "~/assets/Menu_page-0002.jpg"
-import page3 from "~/assets/Menu_page-0003.jpg"
-import page4 from "~/assets/Menu_page-0004.jpg"
-import page5 from "~/assets/Menu_page-0005.jpg"
-import page6 from "~/assets/Menu_page-0006.jpg"
-import page7 from "~/assets/Menu_page-0007.jpg"
-import page8 from "~/assets/Menu_page-0008.jpg"
-import page9 from "~/assets/Menu_page-0009.jpg"
-import page10 from "~/assets/Menu_page-0010.jpg"
-import page11 from "~/assets/Menu_page-0011.jpg"
-import page12 from "~/assets/Menu_page-0012.jpg"
-import page13 from "~/assets/Menu_page-0013.jpg"
-import page14 from "~/assets/Menu_page-0014.jpg"
+import page1 from "~/assets/Menu_page-0001.webp"
+import page2 from "~/assets/Menu_page-0002.webp"
+import page3 from "~/assets/Menu_page-0003.webp"
+import page4 from "~/assets/Menu_page-0004.webp"
+import page5 from "~/assets/Menu_page-0005.webp"
+import page6 from "~/assets/Menu_page-0006.webp"
+import page7 from "~/assets/Menu_page-0007.webp"
+import page8 from "~/assets/Menu_page-0008.webp"
+import page9 from "~/assets/Menu_page-0009.webp"
+import page10 from "~/assets/Menu_page-0010.webp"
+import page11 from "~/assets/Menu_page-0011.webp"
+import page12 from "~/assets/Menu_page-0012.webp"
+import page13 from "~/assets/Menu_page-0013.webp"
+import page14 from "~/assets/Menu_page-0014.webp"
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },
@@ -22,7 +22,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-2">
       <img src={page1} alt="" />
       <img src={page2} alt="" />
       <img src={page3} alt="" />
